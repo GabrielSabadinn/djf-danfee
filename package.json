@@ -1,0 +1,38 @@
+{
+  "name": "djf-danfe",
+  "version": "1.0.3",
+  "description": "Visualizador DANFE em html",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodeunit test/"
+  },
+  "keywords": [
+    "DANFE",
+    "NFe",
+    "XML",
+    "parser",
+    "fluent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djalmaoliveira/djf-danfe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djalmaoliveira/djf-danfe/issues"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.11.3"
+  },
+  "author": "Djalma Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "djf-danfe": "^1.0.3",
+    "djf-nfe": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "html-pdf": "^3.0.1",
+    "pdf-puppeteer": "^1.1.10",
+    "pdfkit": "^0.13.0",
+    "puppeteer": "^20.7.4"
+  }
+}
